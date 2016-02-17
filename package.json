@@ -1,0 +1,12 @@
+{
+  "name": "websocket-tests",
+  "version": "1.0.0",
+  "dependencies": {
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekforbrains/websocket-tests.git"
+  }
+}
