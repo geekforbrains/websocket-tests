@@ -5,10 +5,8 @@ wss.on('connection', function connection(ws) {
   console.log('connected to client');
 
   ws.on('message', function incoming(message) {
-    console.log('from client: %s', message);
-    msg = 'hello from javascript server';
-    console.log('to client: %s', msg);
-    ws.send(msg);
+    console.log(message);
+    ws.send(message);
   });
 
   ws.on('close', function() {
