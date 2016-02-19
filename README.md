@@ -21,6 +21,7 @@ The full results provided by Artillery are located in the `results/` directory.
 Here are the key metrics:
 
 
+
 Running Tests
 =============
 
@@ -39,7 +40,7 @@ node lws_server.js
 Run Tests
 
 ```
-artillery quick -60 -r 10 ws://testserver:8000
+artillery run artillery.json
 ```
 
 
