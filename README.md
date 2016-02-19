@@ -9,7 +9,7 @@ Candidates
 - Node 4.3.1 / [lws 0.2.1][jslws]
 
 Server & Method
-- AWS m3.medium
+- AWS m3.medium / EBS (IOPS 24 / 3000)
 - Ubuntu 14.04.4 LTS
 - [Artillery] 1.3.4
 
