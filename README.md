@@ -10,6 +10,7 @@ Candidates
 
 Server & Method
 - AWS m3.medium
+- Ubuntu 14.04.4 LTS
 - [Artillery] 1.3.4
 
 
