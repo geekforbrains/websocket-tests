@@ -2,6 +2,7 @@
   "name": "websocket-tests",
   "version": "1.0.0",
   "dependencies": {
+    "lws": "^0.2.1",
     "ws": "^1.0.1"
   },
   "devDependencies": {},

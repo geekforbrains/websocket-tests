@@ -17,3 +17,14 @@ For node, do:
 ```
 npm install
 ```
+
+Running Tests
+=============
+
+Tests are run using [Artillery]
+
+```
+artillery quick -60 -r 10 ws://localhost:8000
+```
+
+[Artillery]: https://github.com/shoreditch-ops/artillery
