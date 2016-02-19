@@ -4,13 +4,13 @@ Websocket Tests
 A benchmark test between Python 3 and Nodejs websocket servers.
 
 Candidates
-- Python 3.5.1 / `pip websockets 3.0`
-- Node 4.3.1 / `npm ws 1.0.1`
-- Node 4.3.1 / `npm lws 0.2.1`
+- Python 3.5.1 / [Websockets 3.0][pyws]
+- Node 4.3.1 / [ws 1.01][jsws]
+- Node 4.3.1 / [lws 0.2.1][jslws]
 
 Server & Method
 - AWS m3.medium
-- Artillery 1.3.4
+- [Artillery] 1.3.4
 
 
 Results & Conclusion
@@ -65,4 +65,7 @@ artillery run artillery.json
 ```
 
 
+[pyws]: https://websockets.readthedocs.org/en/stable/
+[jsws]: https://www.npmjs.com/package/ws
+[jslws]: https://www.npmjs.com/package/lws
 [Artillery]: https://github.com/shoreditch-ops/artillery
