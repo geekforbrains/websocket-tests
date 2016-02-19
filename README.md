@@ -1,7 +1,7 @@
 Websocket Tests
 ===============
 
-A benchmark test between Python 3 and Nodejs websockets.
+A benchmark test between Python 3 and Nodejs websocket servers.
 
 Candidates
 - Python 3.5.1 / `pip websockets 3.0`
